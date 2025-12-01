@@ -41,5 +41,12 @@ public class Person {
         PhoneNumber = phoneNumber;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", PhoneNumber='" + PhoneNumber + "'";
+    }
 }
 
