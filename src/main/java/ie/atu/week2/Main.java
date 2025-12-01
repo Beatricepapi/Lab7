@@ -5,13 +5,10 @@ package ie.atu.week2;
 public class Main {
     public static void main(String[] args)
     {
-        Person firstPerson = new Person();
-        firstPerson.setName("Beatrice");
-        firstPerson.setAddress("Galway");
-        firstPerson.setPhoneNumber("123456789");
-
+        Person firstPerson = new Person("Beatrce", "Dublin", "33333");
         System.out.println(firstPerson.toString());
-        Customer customer = new Customer();
-        Customer customer2 = new Customer();
+        Customer myCustomer = new Customer("Beatrice", "Galway", "2222",
+                12, true);
+        System.out.println(myCustomer.toString());
     }
 }
