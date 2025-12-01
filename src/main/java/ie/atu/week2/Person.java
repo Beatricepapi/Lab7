@@ -3,18 +3,18 @@ package ie.atu.week2;
 public class Person {
     private String name;
     private String address;
-    private String PhoneNumber;
+    private String phoneNumber;
 
     public Person() {
         this.name = "";
         this.address = "";
-        this.PhoneNumber = "";
+        this.phoneNumber = "";
     }
 
     public Person(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
-        PhoneNumber = phoneNumber;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getName() {
@@ -34,11 +34,11 @@ public class Person {
     }
 
     public String getPhoneNumber() {
-        return PhoneNumber;
+        return phoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        PhoneNumber = phoneNumber;
+        this.phoneNumber = phoneNumber;
     }
 
     @Override
@@ -46,7 +46,8 @@ public class Person {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", PhoneNumber='" + PhoneNumber + "'";
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
     }
 }
 
