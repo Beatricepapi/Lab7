@@ -11,5 +11,7 @@ public class Main {
         firstPerson.setPhoneNumber("123456789");
 
         System.out.println(firstPerson.toString());
+        Customer customer = new Customer();
+        Customer customer2 = new Customer();
     }
 }
